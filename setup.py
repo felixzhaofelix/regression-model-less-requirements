@@ -11,6 +11,10 @@ def load_file(file_name):
         return f.read()
 
 
+with open('requirements.txt') as f:
+    requirements = f.read().splitlines()
+
+
 setup(name=__name__,
       version=__version__,
       author="Brian Schmidt",
@@ -21,8 +25,7 @@ setup(name=__name__,
       url="https://github.com/schmidtbri/regression-model",
       license="BSD",
       packages=find_packages(exclude=["tests", "*tests", "tests*"]),
-      install_requires=["ml-base>=0.1.0", "rest_model_service>=0.1.0", "pandas", "scikit-learn==0.24.2",
-                        "featuretools==0.24.0", "tpot==0.11.7"],
+      install_requires=requirements,
       extras_require={
             "training": ["kaggle", "jupyter", "pandas_profiling", "yellowbrick"],
       },

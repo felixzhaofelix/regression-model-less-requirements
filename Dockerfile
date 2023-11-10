@@ -1,4 +1,4 @@
-FROM tiangolo/uvicorn-gunicorn-fastapi:python3.7
+FROM tiangolo/uvicorn-gunicorn-fastapi:python3.9
 
 MAINTAINER Brian Schmidt "6666331+schmidtbri@users.noreply.github.com"
 

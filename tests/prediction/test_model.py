@@ -27,7 +27,7 @@ class ModelTests(unittest.TestCase):
         # act, assert
         with self.assertRaises(ValidationError):
             prediction = model.predict(InsuranceChargesModelInput(**inpt))
-            
+
 
 if __name__ == '__main__':
     unittest.main()
