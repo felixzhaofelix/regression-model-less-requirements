@@ -172,4 +172,3 @@ zict==3.0.0
     # via distributed
 zipp==3.17.0
     # via importlib-metadata
-pytest
