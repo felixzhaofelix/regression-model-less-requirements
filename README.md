@@ -1,8 +1,9 @@
-# Regression Model
+# Maintaining a previously regression Model
 
-Building and deploying a regression ML model.
+Applying adaptive and corrective maintenance on a previously built and deployed regression ML model.
 
-This code is used in this [blog post](https://www.tekhnoal.com/regression-model.html).
+This is post explains the steps made to maintain the original code which is used in this 
+[blog post](https://www.tekhnoal.com/regression-model.html) by schmidtbri
 
 ## Requirements
 
@@ -12,10 +13,14 @@ Python 3
 
 The Makefile included with this project contains targets that help to automate several tasks.
 
-To download the source code execute this command:
+To download the original non-functionning code, execute this command:
 
 ```bash
 git clone https://github.com/schmidtbri/regression-model
+```
+
+```bash
+git clone https://github.com/felixzhaofelix/regression-model-less-requirements
 ```
 
 Then create a virtual environment and activate it:
