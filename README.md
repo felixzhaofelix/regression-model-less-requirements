@@ -19,6 +19,7 @@ To download the original non-functionning code, execute this command:
 git clone https://github.com/schmidtbri/regression-model
 ```
 
+To download the functional code with below explained modification, execute this command:
 ```bash
 git clone https://github.com/felixzhaofelix/regression-model-less-requirements
 ```
@@ -27,7 +28,7 @@ Then create a virtual environment and activate it:
 
 ```bash
 # go into the project directory
-cd regression-model
+cd regression-model-less-requirements
 
 make venv
 
